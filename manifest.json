@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Adds a red border to all webpages matching mozilla.org.",
   "permissions": [
-    "tabs", "<all_urls>", "webNavigation",  "webRequest"
+    "tabs", "<all_urls>", "webNavigation",  "webRequest", "cookies"
   ],
  
   
