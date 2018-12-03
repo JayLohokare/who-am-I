@@ -15,7 +15,9 @@ document.addEventListener("click", function(e) {
     xhr.addEventListener("readystatechange", function () {
       if (this.readyState === 4) {
         console.log(this.responseText);
-        window.alert(this.responseText);
+        browser.tabs.create({
+            url: this.responseText
+          });
       }
     });
 
